@@ -1,0 +1,474 @@
+Avoin data Venäjän ja Itä-Euroopan tutkimuksessa: Tapaus GDELT-data
+========================================================
+author: maisterikoulun metodipaja 26.4.2013
+date: Place, August 29, 2013
+css: ../../template/rpresentation/slides.css
+
+<strong><a href="http://markuskainu.fi">Markus Kainu</a></strong></br>
+*PhD student* </br>
+[Aleksanteri institute, University of Helsinki](http://helsinki.fi/aleksanteri) </br>
+Finland </br>
+
+```{rr20opts, echo=FALSE}
+opts_chunk$set(echo=FALSE, dev='png', eval=TRUE, cache=FALSE, fig.height=8, fig.width=12, message=FALSE, warning=FALSE)
+```
+
+
+Sisältö
+========================================================
+
+0. Oma tapa tutkia
+1. Digitalisoituminen ja avoin data
+2. Avoin data ja avoin tiede
+3. Venäjän ja Itä-Euroopan tutkimus ja avoin data
+4. GDELT-aineisto
+5. Venäjään liittyvät tapahtumat GDELT-aineistossa
+6. Kysymyksiä?
+
+0. Oma tapa tutkia
+========================================================
+title: false
+<h1 style="text-align:center;padding-top:200px;">0. Oma tapa tutkia</h1>
+
+========================================================
+- "lattea empirismi" yhteiskuntatieteissä
+- **viitekehyksenä teoriat**: 
+    1. oikeudenmukaisuudesta (filosofia)
+    2. hyvinvointivaltion kehityksestä ja kannatusperustasta (sosiologia)
+    3. tulonjaon vaikutuksista ihmisten taloudelliseen toimeliaisuuteen ((mikro)taloustiede)
+- **aineistona** tilastot ja määrälliset kv-tutkimusaineistot kotitalouksien toimeentulosta ja elinoloista sekä arvoista ja asenteista
+- **menetelminä** laskennalliset tilastolliset menetelmät
+
+========================================================
+
+>Pyrkimys kuvailla yleisiä asiantiloja yhteiskunnissa sekä niissä tapahtuvia muutoksia
+
+- yleistettävyys
+- muutos
+- (kausaalisuus)
+
+Aineistot ja menetelmät
+========================================================
+1. itse kerätyt aineistot
+2. muiden keräämät aineistot
+    - ei-tutkimusaineistot
+    - tutkimusaineistot
+
+>olemassaolevien aineistojen entistä parempi analysointi
+
+
+1. Digitalisoituminen ja avoin data/tieto
+========================================================
+title: false
+<h1 style="text-align:center;padding-top:200px;">1. Digitalisoituminen ja avoin data/tieto</h1>
+
+
+========================================================
+data > informaatio > tieto > (ratkaisut)
+
+========================================================
+- Avoimella tiedolla (open knowledge) viitataan digitaalisessa muodossa oleviin sisältöihin ja dataan, joita kuka tahansa voi vapaasti ja maksutta käyttää, muokata ja uudelleenjakaa. 
+- Avoimen tiedon määritelmän[1] mukaisesti aineiston tulee olla **kokonaisuudessaan saatavilla käyttökelpoisessa ja muokattavassa muodossa Internetin kautta** ja **sen tulee olla lisensoitu niin, että sen käyttöä, muokkausta ja uudelleenjakelua ei rajoiteta.** - 
+- Esimerkiksi Wikipedia -tietosanakirjan sisältö on avointa tietoa.
+- Avoin tieto vaikuttaa esimerkiksi viestintään ja tieteenharjoittamiseen helpottamalla esimerkiksi toimittajien ja tutkijoiden tiedonhankintaa ja vähentämällä kuluja.
+
+Avoin julkishallinnon data (Open Government data)
+========================================================
+- Julkishallinnon datan avaaminen on kansainvälinen, Yhdysvalloista ja Isosta-Britanniasta käynnistynyt ilmiö, joka on levinnyt nopeasti. 
+- Avoin julkinen data on ajatusmalli, jossa julkissektorin, kansalaisten, verkkopalveluiden kehittäjien ja muiden datan käyttäjien vuorovaikutusta pyritään lisäämään sekä automatisoimaan yhteiskunnallisen hyvän lisäämiseksi.
+
+
+2. Avoin data ja avoin tiede
+========================================================
+title: false
+<h1 style="text-align:center;padding-top:200px;">2. Avoin data ja avoin tiede</h1>
+
+Avoin tieteellinen tieto
+========================================================
+- Tieteellisen tiedon ja tutkimustulosten avoimen julkaisemisen kohdalla puhutaan niin sanotusta Open access -julkaisemisesta, jolla taataan, että tutkimustulokset julkaisut ja tausta-aineistot – ovat tiedeyhteisön ja kaikkien muidenkin vapaasti saatavissa.
+- Yhä useampi tutkimusorganisaatio tai tutkimuksen rahoittaja asettaa omia suosituksiaan ja ehtojaan tutkimustulosten avoimesta saatavuudesta.
+
+Avoin tiede
+========================================================
+- Avoin tiede (open science) on kattotermi liikkeelle, joka pyrkii edistämään avoimia toimintamalleja tieteellisessä tutkimuksessa. 
+- Keskeinen tavoite on tutkimustulosten, tutkimusdatan ja tutkimuksessa käytettyjen menetelmien julkaiseminen avoimella lisenssillä siten, että ne ovat vapaasti kaikkien halukkaiden tarkasteltavissa sekä käytettävissä.
+
+Avoin tiede sisältää käytäntöjä, kuten 
+========================================================
+- tutkimusjulkaisujen avoimen saatavuuden (ks. open access) edistäminen, 
+- tutkimusaineistojen avoin julkaiseminen, 
+- avoimen lähdekoodin ja avoimien standardien hyödyntäminen, sekä 
+- tutkimusprosessin julkinen dokumentointi niin kutsutun avoimen muistikirjan menetelmällä.
+
+Avoinen tieteen päähyödyt
+========================================================
+Resurssien jakamisen myötä tapahtuva:
+
+- tieteen kehityksen nopeutuminen, 
+- tutkimuskäytäntöjen läpinäkyvyyden lisääntymisestä johtuva laadun ja tutkimuksen toistettavuuden parantuminen, sekä 
+- tutkimustulosten paremman saavutettavuuden myötä lisääntyvä yhteiskunnallinen vaikuttavuus. 
+- Tutkimusaineistojen vapaa jakaminen saattaa myös lisätä viittauksia tehtyyn tutkimustyöhön
+
+
+3. Avoin data ja Venäjän ja Itä-Euroopan tutkimus
+========================================================
+title: false
+<h1 style="text-align:center;padding-top:200px;">3. Avoin data ja Venäjän ja Itä-Euroopan tutkimus</h1>
+
+Avoimia dataportaaleja
+========================================================
+- [OpenGovData Russia Catalog](http://opengovdata.ru/) Launched in 2010, private initiative.
+- [data.mos.ru](http://data.mos.ru/)
+- [rosspending.ru](http://rosspending.ru/)
+- [democrator.ru/](http://democrator.ru/)
+- [taktaktak.org/](http://taktaktak.org/)
+- [Ulyanovsk Oblast: Regional Government Launches Open Data Initiative in Russia](http://www.worldbank.org/en/news/press-release/2013/04/10/ulyanovsk-oblast-regional-government-launches-open-data-initiative-in-russia)
+
+- [Estonian government open-data website](http://www.opendata.ee/)
+- [Moldovan government open-data website.](http://date.gov.md/)
+
+- [European Commission Data Portal](http://open-data.europa.eu)
+- [The United Nations](http://data.un.org)
+
+
+4. GDELT-aineisto
+========================================================
+title: false
+<h1 style="text-align:center;padding-top:200px;">4. GDELT-aineisto</h1>
+
+========================================================
+- GDELT is a new CAMEO-coded data set containing more than 200-million geolocated events with global coverage for 1979 to the present.
+- Julkaistu avoimesti maaliskuussa 2013
+- The primary author is Kalev Leetaru at the University of Illinois Graduate School of Library and Information Science. 
+- The data are based on a variety of international news sources coded using the [TABARI system](http://eventdata.psu.edu/tabari.dir/tabari.manual.0.8.4b1.pdf) for events and additional software for location and tone; the data will be updated daily. 
+- [http://eventdata.psu.edu/data.dir/GDELT.html](http://eventdata.psu.edu/data.dir/GDELT.html)
+
+========================================================
+>I suspect this is going to be the data set that launches a thousand dissertations." 
+
+Jay Ulfelder, a Poli Sci researcher, [The Future of Political Science Just Showed Up](http://dartthrowingchimp.wordpress.com/2013/04/10/the-future-of-political-science-just-showed-up/)
+
+Muita Linkkejä
+========================================================
+- [Kalev Leetaru & Philip A. Schrodt (2013) GDELT: Global Data on Events, Location and Tone, 1979-2012](http://eventdata.psu.edu/papers.dir/ISA.2013.GDELT.pdf) - Paper presented at the International Studies Association meetings, San Francisco, April 2013.  
+- [GDELT: Global Data on Events, Location and Tone, 1979-2012](http://asecondmouse.wordpress.com/2013/04/15/gdelt-global-data-on-events-location-and-tone-1979-2012/)
+- [GDELT: a big data history of life, the universe and everything](http://www.guardian.co.uk/news/datablog/2013/apr/12/gdelt-global-database-events-location) - Guardian
+
+5. Venäjään liittyvät tapahtumat GDELT-aineistossa
+========================================================
+title: false
+<h1 style="text-align:center;padding-top:200px;">5. Venäjään liittyvät tapahtumat GDELT-aineistossa</h1>
+
+Pohjautuu [Rolf Fredheimin blogipostiin maaliskuulta 2013](http://quantifyingmemory.blogspot.fi/2013/04/mapping-gdelt-data-in-r-and-some.html)
+
+
+Valmistelua
+========================================================
+- ladataan aineisto [GDELT:in sivuilta](http://eventdata.psu.edu/data.dir/GDELT.html) ja puretaan se. Kokonaisuudessaan ~4.6GT vuosittain koostettuja tekstitaulukkoja
+- Ohjeita datan manipuloimiseen esim. [Getting Started with GDELT by David Masad](http://nbviewer.ipython.org/urls/raw.github.com/dmasad/GDELT_Intro/master/Getting_Started_with_GDELT.ipynb) ja []()
+
+Datan analysointia
+========================================================
+- Käytetään [python](http://www.python.org/) - ja [R](http://www.r-project.org/)-kieliä
+- pythonilla valitaan massivisesta datasta Venäjää koskevat tapahtumat ja analysit kirjoitetaan R:llä
+
+Venäjää koskeva data
+========================================================
+```{rload_data, cache=TRUE}
+setwd("~/workspace/russia/GDELT/slides")
+load("data/gdeltRus.Rdata")
+str(t)
+```
+
+
+ActorCode & EventCode
+========================================================
+- [CAMEO - Conflict and Mediation Event Observations](http://web.ku.edu/~keds/cameo.dir/CAMEO.CDB.09b5.pdf)
+- [Commonly Used CAMEO Agents](http://eventdata.psu.edu/cameo.dir/Agents.summary.pdf)
+
+QuadCategory
+========================================================
+1. Material Cooperation
+2. Verbal Cooperation
+3. Verbal Conflict
+4. Material Conflict
+
+GoldsteinScale
+========================================================
+- [Goldstein, Joshua S. 1992. “A Conflict-Cooperation Scale for WEIS Events Data.” Journal of Conflict Resolution 36 (2)](http://jcr.sagepub.com/content/36/2/369.short)
+- [ Goldstein Scale for WEIS Data](http://www.chsbs.cmich.edu/fattah/courses/empirical/jgscale.htm)
+
+
+6 ensimmäistä tapahtumaa
+========================================================
+```{r}
+head(t)
+```
+
+
+Keskeisimmät toimijat
+========================================================
+```{r}
+tail(sort(table(t$Actor1Code)), 20)
+```
+
+Tapahtumien vuosittaiset määrät
+========================================================
+```{rfig1, fig.height=5, cache=TRUE, fig.cap="Venäjään liittyvien tapahtumien vuosittaiset määrät", echo=FALSE}
+library(lubridate)
+library(ggplot2)
+x <- data.frame(table(year(t$Day)))
+names(x) <- c("Var1","kaikki")
+x$group <- "group"
+ggplot(x, aes(x = Var1, y = kaikki, group=group)) + geom_point(stat = "identity") + 
+  geom_path() + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+
+
+========================================================
+```{rfigmap1, cache=TRUE, fig.cap="Kaikki Venäjään liityvät tapahtuma kartallla", echo=FALSE}
+library(RgoogleMaps)
+library(ggmap)
+library(mapproj)
+library(plyr)
+
+# Reshape the data so we get the counts of events for each location
+t$count <- 1
+df <- ddply(t, .(ActionGeo_Lat, ActionGeo_Long), summarize, count = sum(count))
+
+ggplot(df, aes(x = ActionGeo_Long, y = ActionGeo_Lat)) +
+  geom_point(aes(size = count), alpha = 0.3, shape=1)
+  
+```
+
+
+========================================================
+
+```{rfigmap2, cache=TRUE, fig.cap="Kaikki Venäjään liityvät tapahtuma kartalla", echo=FALSE}
+lat <- c(40, 70)
+lon <- c(20, 100)
+center = c(lat = mean(lat), lon = mean(lon))
+zoom <- min(MaxZoom(range(lat), range(lon)))
+
+# And download a map file!
+map <- get_map(location = c(lon = mean(lon), lat = mean(lat)), zoom = 3, maptype = "terrain", 
+    source = "google")
+
+print(ggmap(map) + geom_point(data = df, aes(x = ActionGeo_Long, y = ActionGeo_Lat, 
+    size = count), alpha = 0.3, shape=1, color="red"))
+```
+
+
+========================================================
+
+```{rfigmap3, cache=TRUE, fig.cap="Kaikki Venäjään liityvät tapahtuma kartalla", echo=FALSE}
+# lets define the scope of our map
+lat2 <- c(50, 80)
+lon2 <- c(-20, 60)
+center = c(lat = mean(lat2), lon = mean(lon2))
+zoom <- min(MaxZoom(range(lat2), range(lon2)))
+
+
+map <- get_map(location = c(lon = mean(lon2), lat = mean(lat2)), zoom = 5, maptype = "terrain", 
+    source = "google")
+
+print(ggmap(map) + geom_point(data = df, aes(x = ActionGeo_Long, y = ActionGeo_Lat, 
+    size = count), alpha = 0.6, shape=1, color="red"))
+```
+
+
+
+Valitaan kansalaistottelemattomuutta sisältäneet tapahtumat
+========================================================
+- protests, 
+- rallies, 
+- hunger strikes, 
+- strikes, 
+- boycotts, 
+- obstructions, 
+- violent protest
+
+
+
+========================================================
+
+```{rbar3kanstot, cache=TRUE, fig.cap="kansalaistottelemattomuutta sisältäneet tapahtumat", echo=FALSE}
+t$count <- 1
+# selecting the events we are interested in
+t2 <- t[t$EventCode > 139 & t$EventCode < 146, ]
+
+# Keep only rows with agents that interest us. Combined these
+t3a <- t2[grep("OPP|EDU|REL|CVL|ELI|LAB|IGO|NGO|NGM", t2$Actor1Code), ]
+t3b <- t2[grep("OPP|EDU|REL|CVL|ELI|LAB|IGO|NGO|NGM", t2$Actor2Code), ]
+t3 <- rbind(t3a, t3b)
+# agents: OPP, EDU, REL, CVL, ELI, LAB, IGO, NGO, NGM
+
+y <- data.frame(table(year(t3$Day)))
+names(y) <- c("Var1","tottelemattomuus")
+y$group <- "group"
+
+
+lat <- c(40, 70)
+lon <- c(20, 100)
+center = c(lat = mean(lat), lon = mean(lon))
+zoom <- min(MaxZoom(range(lat), range(lon)))
+
+# And download a map file!
+map <- get_map(location = c(lon = mean(lon), lat = mean(lat)), zoom = 3, maptype = "terrain", 
+    source = "google")
+
+
+ggplot(y, aes(x = Var1, y=tottelemattomuus, group=group)) +  geom_point(stat="identity") +
+  geom_path() + theme(axis.text.x = element_text(angle = 90, hjust = 1))
+```
+
+========================================================
+
+```{rmap3kanstot, cache=TRUE, fig.cap="kansalaistottelemattomuutta sisältäneet tapahtumat kartalla", echo=FALSE}
+df2 <- ddply(t3, .(ActionGeo_Lat, ActionGeo_Long), summarize, count = sum(count))
+map <- get_map(location = c(lon = mean(lon), lat = mean(lat)), zoom = 3, maptype = "terrain", 
+    source = "google", color = "bw")
+
+print(ggmap(map) + geom_point(data = df2, aes(x = ActionGeo_Long, y = ActionGeo_Lat, 
+    size = count), alpha = 0.8, pch = 21, colour = "black", fill = "red2") + 
+    scale_size(range = c(2, 7)))
+```
+
+
+
+Moskova
+========================================================
+
+```{rrmap4kmoskova, cache=TRUE, fig.cap="kansalaistottelemattomuutta sisältäneet tapahtumat Moskovassa ", echo=FALSE}
+t3$recent <- "1979 - heinäkuu 2011"
+t3$Day <- as.Date(t3$Day)
+t3$recent[t3$Day > ("2011-07-01")] <- "elokuu 2011 - elokuu 2012"
+tryCatch(detach("package:Hmisc"), error = function(e) NULL)
+
+df2 <- ddply(t3, .(ActionGeo_Lat, ActionGeo_Long, recent), summarize, count = sum(count))
+mos <- get_map(location = "moscow", zoom = 10, maptype = "terrain", source = "google")
+print(ggmap(mos) + geom_point(data = df2, aes(x = ActionGeo_Long, y = ActionGeo_Lat, 
+    size = count, fill = recent), alpha = 0.8, pch = 21, colour = "black") + 
+    scale_size(range = c(4, 20)) + facet_wrap(~recent) +
+        theme(legend.position="top"))
+  
+```
+
+
+========================================================
+
+```{rrmap5connect, cache=TRUE, fig.cap="Tapausten osallisten yhteydet", echo=FALSE}
+#Limit the data to the last year recorded
+t3$recent <- 0
+t3$Day <- as.Date(t3$Day)
+t3$recent[t3$Day>("2011-07-01")] <- 1
+t3 <- t3[t3$recent==1,]
+
+#to avoid conflicts between plyr and Hmisc. If anyone knows a better way of doing this, please let me know!
+tryCatch(detach("package:Hmisc"),error=function(e) NULL)
+
+df2 <- ddply(t3,.(Actor1Geo_Lat,Actor1Geo_Long,Actor2Geo_Lat,Actor2Geo_Long,ActionGeo_Lat,ActionGeo_Long),summarize, count=sum(count))
+df2 <- df2[complete.cases(df2),]
+
+#remove links with America and southern hemisphere
+df2 <- df2[df2$Actor1Geo_Lat>0&df2$Actor2Geo_Lat>0&df2$Actor1Geo_Long>0&df2$Actor2Geo_Long>0,]
+#remove Generic Russia
+df2 <- df2[df2$Actor2Geo_Lat!=60&df2$Actor2Geo_Long!=100,]
+df2 <- df2[df2$Actor1Geo_Lat!=60&df2$Actor1Geo_Long!=100,]
+
+#place points and edges in separate data frames
+pointsDf <- df2[,5:7]
+colnames(pointsDf)[3] <- "count2"
+edgesDf <- df2[,c(1:4,7)]
+
+a <- paste0(edgesDf[,1],edgesDf[,2])#remove points were start and end are the same
+b <- paste0(edgesDf[,3],edgesDf[,4])
+edgesDf <- edgesDf[!a==b,]
+
+library(sna)
+library(Hmisc)
+
+edgeMaker <- function(whichRow, len = 1, curved = TRUE){
+  fromC <- c(edgesDf[whichRow,2],edgesDf[whichRow,1])  # Origin
+  toC <- c(edgesDf[whichRow,4],edgesDf[whichRow,3]) # Terminus
+  weight <- edgesDf[whichRow, 5]  # Terminus
+
+  # Add curve:
+  graphCenter <- c(50,50)#colMeans(edgesDf[,1:2])  # Center of the overall graph
+  bezierMid <- c(fromC[1], toC[2])  # A midpoint, for bended edges
+  distance1 <- sum((graphCenter - bezierMid)^2)
+  if(distance1 < sum((graphCenter - c(toC[1], fromC[2]))^2)){
+    bezierMid <- c(toC[1], fromC[2])
+    }  # To select the best Bezier midpoint
+  bezierMid <- (fromC + toC + bezierMid) / 3  # Moderate the Bezier midpoint
+  if(curved == FALSE){bezierMid <- (fromC + toC) / 2}  # Remove the curve
+
+  edge <- data.frame(bezier(c(fromC[1], bezierMid[1], toC[1]),  # Generate
+                            c(fromC[2], bezierMid[2], toC[2]),  # X & y
+                            evaluation = len))  # Bezier path coordinates
+  edge$Sequence <- 1:len  # For size and colour weighting in plot
+  edge$weight <- weight
+  edge$Group <- whichRow
+  return(edge)
+}
+allEdges <- lapply(1:nrow(edgesDf), edgeMaker, len = 100, curved = TRUE)
+allEdges <- do.call(rbind, allEdges)  # a fine-grained path ^, with bend ^
+
+#     col <- rep(gray(8/10),length(labels))
+#     col2 <- rep(gray(1/10),length(labels))
+#     col[labels==term] <- "red3"
+#     col2[labels==term] <- "red4"
+
+new_theme_empty <- theme_bw()
+new_theme_empty$line <- element_blank()
+new_theme_empty$rect <- element_blank()
+new_theme_empty$strip.text <- element_blank()
+new_theme_empty$axis.text <- element_blank()
+new_theme_empty$axis.title <- element_blank()
+new_theme_empty$legend <- element_blank()
+new_theme_empty$plot.margin <- structure(c(0, 0, 0, -1), unit = "lines",
+                                         valid.unit = 3L, class = "unit")
+
+lat <- c(40, 70)
+lon <- c(20, 100)
+center = c(lat = mean(lat), lon = mean(lon))
+zoom <- min(MaxZoom(range(lat), range(lon)))
+
+map <-get_map(location=c(lon=mean(lon), lat=mean(lat)), zoom=3 ,maptype="terrain")
+
+p <- ggmap(map)
+#p <- ggplot(allEdges,environment=environment())  
+p <- p + geom_path(data=allEdges, aes(x = x, y = y,group = Group,  # Edges with gradient
+                         size=(weight-1),colour=Sequence),alpha=.6)  # and taper
+p <- p + geom_point(data = data.frame(pointsDf),  # Add points
+                        aes(x = ActionGeo_Long, y = ActionGeo_Lat,size=log(count2)), pch = 21,
+                        colour = "black", fill = "red2")  # Customize gradient 
+p <- p + scale_colour_gradient(low = "red3", high = "white", guide = "none")
+p <- p + scale_size(range = c(.6, 5), guide = "none")  # Customize taper
+p <- p + new_theme_empty  # Clean up plot
+p <- p + xlim(min(allEdges$x-1),max(allEdges$x+1))
+p <- p + ylim(20,65)
+print(p)
+```
+
+Russia's links to the World: 1979-2012
+========================================================
+- [video](http://www.youtube.com/embed/foQvgbo7lOw)
+- [big geo-data visualisations](http://quantifyingmemory.blogspot.fi/2013/04/big-geo-data-visualisations.html)
+
+
+6. Kysymyksiä
+========================================================
+title: false
+<h1 style="text-align:center;padding-top:200px;">6. Kysymyksiä</h1>
+
+<center>
+![](http://i.imgur.com/q7ftMqY.gif)
+</center>
+
+
+Kiitos!
+========================================================
+title: false
+<h1 style="text-align:center;padding-top:200px;">Kiitos!</h1>

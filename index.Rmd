@@ -1,0 +1,21 @@
+% Expporing GDELT-data
+% Markus Kainu
+% 20130424
+
+<link href="http://markuskainu.fi/material/css/article_wide.css" rel="stylesheet" type="text/css" title="compact"></link>
+
+```{r, echo=FALSE, eval=FALSE}
+setwd("~/workspace/russia/GDELT")
+library(kaRski)
+knitpandoc("index")
+
+cd ~/workspace/russia/GDELT
+lftp -u np16003 -e "mirror -R;quit" ftp://np16003@www.muuankarski.org/domains/muuankarski.org/public_html/research/GDELT/
+```
+
+# Content
+
+## Slides
+
+- [Metodipajaesitys 20130526 in html](slides/slides.html)
+- [Metodipajaesitys 20130526 in pdf](slides/slides.pdf)
